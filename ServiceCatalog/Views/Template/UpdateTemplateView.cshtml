@@ -1,0 +1,166 @@
+﻿@model ServiceCatalog.Models.TemplateViewModel
+
+@{
+    ViewBag.Title = "Edit Template";
+}
+
+<div class="container">
+    @using (Html.BeginForm("UpdateTemplate", "Template", FormMethod.Post,
+        new
+        {
+            @class = "form-horizontal",
+            role = "form",
+            enctype = "multipart/form-data",
+            id = "update-template-id"
+        }))
+    {
+        <h4>Update Template</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.TextBoxFor(m => m.TemplateId, new { @class = "hidden" })
+        <div class="form-group">
+            @Html.LabelFor(m => m.TemplateData, new { @class = "col-sm-2 control-label" })
+            <div class="col-md-4">
+                @Html.TextBoxFor(m => m.TemplateData, new
+                {
+                    @class = "add-template-input choose-button form-control",
+                    type = "file",
+                    accept = ".json",
+                    aria_describedby = "fileHelp"
+                })
+                <small id="fileHelp" class="form-text text-muted">
+                    Choose a local file or specify a link, e.g.:<br> http://contoso.com/template.json
+                </small>
+                @Html.ValidationMessageFor(m => m.TemplateData)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Comment, new { @class = "col-sm-2 control-label" })
+            <div class="col-md-4">
+                @Html.TextBoxFor(m => m.Comment, new { @class = "add-template-input form-control" })
+                @Html.ValidationMessageFor(m => m.Comment)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.TemplateJsonVersion, new { @class = "col-sm-2 control-label" })
+            <div class="col-md-4">
+                @Html.TextBoxFor(m => m.TemplateJsonVersion, new { @class = "add-template-input form-control" })
+                @Html.ValidationMessageFor(m => m.TemplateJsonVersion)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.IsManageTemplate, new { @class = "col-sm-2 control-label" })
+            <div class="col-md-4">
+                @Html.RadioButtonFor(m => m.IsManageTemplate, true, new { id = "manage-template-id", @class = "add-template-input form-control", style = "width:  20px;display: inline;" })
+                @Html.Label("manage-template-id", "Manage")
+
+                @Html.RadioButtonFor(m => m.IsManageTemplate, false, new { id = "deploy-template-id", @class = "add-template-input form-control", style = "width:  20px;display: inline;" })
+                @Html.Label("manage-template-id", "Deploy")
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Available to All</label>
+            <div class="col-md-4">
+                <input id="allow-to-all" class="form-check-input form-control" type="checkbox" value="" style="width: 20px;height: 20px;">
+            </div>
+        </div>
+        <div class="hidden">
+            @Html.TextBoxFor(m => m.TemplateUsersGroup, new { @class = "add-template-input" })
+            @Html.ValidationMessageFor(m => m.TemplateUsersGroup)
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">User Groups</label>
+            <div class="col-md-4">
+                <select id="groups-id" multiple="multiple" name="groups-id" class="add-template-input form-control" size="6">
+                    @foreach (var group in ViewBag.Groups)
+                    {
+                        <option title="@group.Description" value="@group.ObjectId">@group.DisplayName</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Users</label>
+            <div class="col-md-4">
+                <select id="users-id" multiple="multiple" name="users-id" class="add-template-input form-control" size="6">
+                    @foreach (var user in ViewBag.Users)
+                    {
+                        <option title="@user.UserPrincipalName" value="@user.UserPrincipalName">@user.DisplayName (@user.UserPrincipalName.Substring(0, @user.UserPrincipalName.IndexOf("@")))</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-5">
+                <button id="save" type="submit" class="btn btn-success col-md-5">Save</button>
+            </div>
+        </div>
+    }
+    <div class="row" style="padding-bottom: 10px;">
+        <div class="col-sm-5">
+            @Html.ActionLink("Delete",
+                          "DeleteTemplate",
+                          new { controller = "Deployment", templateId = Model.TemplateId },
+                          new { @class = "btn btn-danger col-md-5", onclick = "return confirm('Are you sure you wish to delete this article?');" })
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+        if (!window.jQuery) {
+            console.error("jQuery is not defined");
+        } else {
+            (function ($) {
+                $('#update-template-id').submit(validateForm);
+                var templateGroup = $('#TemplateUsersGroup').val();
+                if (templateGroup === '*') {
+                    $("#allow-to-all").prop('checked', true);
+                    document.getElementById("groups-id").disabled = true;
+                    document.getElementById("users-id").disabled = true;
+                }
+                else {
+                    const templateGroups = templateGroup.split(',');
+                    let groups = document.getElementById("groups-id");
+                    for (let j = 0; j < groups.length; j++) {
+                        let group = document.getElementById("groups-id")[j];
+                        if (group && group.value && templateGroups.indexOf(group.value) !== -1) {
+                            document.getElementById("groups-id")[j].selected = "selected";
+                        }
+                    }
+                    let users = document.getElementById("users-id");
+                    for (let i = 0; i < users.length; i++) {
+                        let user = document.getElementById("users-id")[i];
+                        if (user && user.value && templateGroups.indexOf(user.value) !== -1) {
+                            document.getElementById("users-id")[i].selected = "selected";
+                        }
+                    }
+                }
+
+                function validateForm() {
+                    if (!$("#allow-to-all").prop("checked")) {
+                        var templateUsersGroup = [];
+                        $('#groups-id option:selected').each(function () {
+                            templateUsersGroup.push($(this).val());
+                        });
+                        $('#users-id option:selected').each(function () { templateUsersGroup.push($(this).val()); });
+                        $('#TemplateUsersGroup').val(templateUsersGroup.join(','));
+                    }
+                    else {
+                        $('#TemplateUsersGroup').val('*');
+                    }
+
+                    return true;
+                }
+
+                $("#allow-to-all").on("change",
+                    function () {
+                        var checked = $(this).prop("checked");
+                        document.getElementById("groups-id").disabled = checked;
+                        document.getElementById("users-id").disabled = checked;
+                    });
+            })(window.jQuery);
+        }
+    </script>
+}

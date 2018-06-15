@@ -1,0 +1,131 @@
+﻿@using System.Web.Mvc.Html
+@model ServiceCatalog.Models.CompliteStateViewModel
+<div class="form-horizontal">
+    <div style="height: 400px;">
+        <h4>Deployment state</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        <div class="form-group">
+            <div class="col-sm-2">
+                @Html.ActionLink("Download Log", "GetLogFile", "Deployment",
+                         new { fileName = @ViewBag.FileLogName },
+                         new { @class = "btn btn-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-12" id="deploy-status-field">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+        if (!window.jQuery) {
+            console.error("jQuery is not defined");
+        } else {
+            (function($) {
+                var deployStatusField = $("#deploy-status-field");
+
+                requestAsyncOpStatus();
+
+                function requestAsyncOpStatus() {
+                    setStatusText('Running...');
+                    var encodedParams = $.param({
+                        url: '@ViewBag.AsyncOperationUrl'
+                    });
+                    $.get(
+                        '/Deployment/GetAzureAsyncOperationStatus?' + encodedParams,
+                        function(data) {
+                            console.log(data);
+
+                            if (data.Status && (data.Status === 'Accepted' || data.Status === 'Running')) {
+                                setTimeout(requestAsyncOpStatus, 5000);
+                            } else if (data.Status && data.Status === 'Succeeded') {
+                                console.log('Operation succeeded');
+                                setStatusText('Deployment successfully completed');
+                                requestOutputParameters();
+                            } else if (data.Status && (data.Status === 'Failed')) {
+                                console.error('Operation failed');
+                                setStatusText('Deploy failed: ' + getErrorMessage(data));
+                            } else if (data.Status) {
+                                console.log('Operation finished with status ' + data.Status);
+                                setStatusText('Operation finished with status ' + data.Status);
+                            } else {
+                                console.error('Operation status not found');
+                                setStatusText('Failed. Status not found.');
+                            }
+                        });
+                }
+
+                function requestOutputParameters() {
+                    var encodedParams = $.param({
+                        url: '@ViewBag.OperationResultUrl'
+                    });
+                    $.get(
+                        '/Deployment/GetDeployOutputParameters?' + encodedParams,
+                        function(data) {
+                            console.log(data);
+                            var parsedData = JSON.parse(data);
+
+                            var parameters = Object.getOwnPropertyNames(parsedData);
+                            var parametersArr = [];
+                            for (var i = 0; i < parameters.length; i++) {
+                                if (typeof parsedData[parameters[i]].value !== 'undefined') {
+                                    parametersArr.push({
+                                        name: parameters[i],
+                                        value: parsedData[parameters[i]].value,
+                                    });
+                                }
+                            }
+
+                            showParametersTable(parametersArr);
+                        });
+                }
+
+                function setStatusText(statusText) {
+                    deployStatusField.text(statusText);
+                }
+
+                function showParametersTable(parameters) {
+                    var html =
+                        '<table class="table"><thead class="thead-light"><tr><th scope="col">Name</th><th scope="col">Value</th><tr></thead><tbody>';
+
+                    for (var i = 0; i < parameters.length; i++) {
+                        html += '<tr><td>' + parameters[i].name + '</td><td>' + parameters[i].value + '</td></tr>';
+                    }
+
+                    html += '</tbody></table>';
+
+                    deployStatusField.html(html);
+                }
+
+                function getErrorMessage(data) {
+                    if (typeof data.Error.Details === 'undefined' ||
+                        typeof data.Error.Details[0] === 'undefined' ||
+                        typeof data.Error.Details[0].Message === 'undefined') {
+
+                        return data.Message;
+                    }
+
+                    var jsonErrorMessage;
+                    try {
+                        jsonErrorMessage = JSON.parse(data.Error.Details[0].Message);
+                    } catch (ex) {
+                        return data.Error.Details[0].Message;
+                    }
+
+                    if (typeof jsonErrorMessage.error === 'undefined' ||
+                        typeof jsonErrorMessage.error.message === 'undefined') {
+
+                        return data.Message;
+                    }
+
+                    return jsonErrorMessage.error.message;
+                }
+            })(window.jQuery);
+        }
+    </script>
+}

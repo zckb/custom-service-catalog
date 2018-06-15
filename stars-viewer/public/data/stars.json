@@ -1,0 +1,4201 @@
+{ "type": "FeatureCollection", "features": [{
+      "type": "Feature",
+      "id": 1054272,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.4032438145674577
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-30.972916832986982, 10.450195175382419]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 918800,
+      "properties": {
+        "name": "Kepler 918800",
+        "desig": "0.9566908675778478",
+        "con": "",
+        "mag": -1,
+        "bv": 3.8267634703113913
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [112.49208563552588, 87.19452080685318]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4697873,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.6264636746943752
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [54.83414620299422, -1.4451374196895586]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1898843,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.053840363497196
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-103.90392334093566, -25.34207833253643]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2868348,
+      "properties": {
+        "name": "Kepler 2868348",
+        "desig": "0.8446585487854916",
+        "con": "",
+        "mag": -1,
+        "bv": 3.3786341951419665
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.18759551947716, 74.52625924390927]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1846494,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.4902827930876335
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.12723504722914, -174.01228162886147]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8470162,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.9883126956999622
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-15.37068397819965, -130.8170464105389]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3552891,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.1326755749872213
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-102.2999406167109, -108.57296363829114]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6974470,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.300618735803349
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.1802727723187, 66.52294134429613]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4943434,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.5038728937319297
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.66484882399232, -120.2535072951627]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3243844,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.6318652959433813
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.04558787522342, -148.30214777672728]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2890403,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.7257084358088743
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.11244129168244, -147.08344410404322]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6466120,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.19640518178849042
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.67262604018006, 74.83367637300074]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 417956,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.3720038961145367
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.040166588040506, -141.94511867157533]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2944428,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.7381391062815714
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.9946698339889, -65.73051004466488]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6017114,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.1912084537899252
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [162.0300529622461, 77.6762560099254]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9799045,
+      "properties": {
+        "name": "Kepler 9799045",
+        "desig": "0.821496411924538",
+        "con": "",
+        "mag": -1,
+        "bv": 3.285985647698152
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.0193425508629, -41.97756569170673]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5361826,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.9543266583615626
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.963936886699, -86.22474863285203]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6175487,
+      "properties": {
+        "name": "Kepler 6175487",
+        "desig": "0.976280170630599",
+        "con": "",
+        "mag": -1,
+        "bv": 3.905120682522396
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.41116438803644, 95.87810098235809]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7604134,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.7331758867673042
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.20250728862214, -147.5892350767512]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5611362,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.900216321255906
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-148.33411600503644, -142.1607501004693]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7362143,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.3853381757588847
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-19.231316943056783, -67.73239712822864]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1359671,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.542565833544943
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-151.47081659780753, -159.5532721953022]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2681443,
+      "properties": {
+        "name": "Kepler 2681443",
+        "desig": "0.9852978189578065",
+        "con": "",
+        "mag": -1,
+        "bv": 3.941191275831226
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-12.30804495321135, -112.03344037463306]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8011855,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.032281322239296
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [59.4738211210491, 17.80528583886681]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3872852,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.1010403804070474
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.76782751063814, 38.419454846784845]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1652592,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.0987122736640655
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-41.530171884659524, 47.31843263005689]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5335126,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.6186841565336083
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.89640080512942, 68.98193615232108]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3464970,
+      "properties": {
+        "name": "Kepler 3464970",
+        "desig": "0.8648342363375254",
+        "con": "",
+        "mag": -1,
+        "bv": 3.4593369453501017
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.534876264393688, -77.53687405886086]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7634856,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.259560022709449
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [76.55437447448708, -11.077706492055967]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5354332,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.0576596125956463
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [95.24628463641233, -116.0713249595765]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5279834,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.975694292997784
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.64270184414003, 39.47997829863729]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9575543,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.109931445453914
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [84.80507838347569, 1.8407318102051988]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6683485,
+      "properties": {
+        "name": "Kepler 6683485",
+        "desig": "0.9263195980514161",
+        "con": "",
+        "mag": -1,
+        "bv": 3.7052783922056642
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-139.46257128635636, 4.717683666937262]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4359451,
+      "properties": {
+        "name": "Kepler 4359451",
+        "desig": "0.9458372772743824",
+        "con": "",
+        "mag": -1,
+        "bv": 3.7833491090975295
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.69982020291656, 21.14685939837122]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7032386,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.577538250320269
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.68944437282516, 37.617459370880056]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6776653,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.1254902437746095
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.9886018278691, -150.95252905862773]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6071097,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.789504650018592
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-20.75882305872372, -81.363385230752]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5488745,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.3405483890911611
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-125.02754828253492, -174.8715019433823]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2334621,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.008220897281925
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.62077261609058, -114.93261219023039]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5904284,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.6298909474814955
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.0401444396265, 89.68235117518856]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 630255,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.5604976469114984
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.39501667969091, -87.79147305219948]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6963069,
+      "properties": {
+        "name": "Kepler 6963069",
+        "desig": "0.9875953147726573",
+        "con": "",
+        "mag": -1,
+        "bv": 3.950381259090629
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.07767772816041, -104.43333116939439]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3236628,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.7400863036495737
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.36015376088835, -87.81172217967374]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3358572,
+      "properties": {
+        "name": "Kepler 3358572",
+        "desig": "0.9592711939173972",
+        "con": "",
+        "mag": -1,
+        "bv": 3.837084775669589
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.868028250215986, -16.09702980693916]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9830768,
+      "properties": {
+        "name": "Kepler 9830768",
+        "desig": "0.8923326560054687",
+        "con": "",
+        "mag": -1,
+        "bv": 3.569330624021875
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-110.83471640125384, -27.87751759040654]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8446983,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.2175598892863393
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [159.57732076575638, 27.858430114436317]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1972553,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.690517882147744
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.5230506317617, 98.32145761432696]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4178828,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.2558113711660761
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.99892371365638, 26.630006812266487]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8309735,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.8617834313966197
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-10.00485552484983, 84.85072572983688]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7464700,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.298287998000088
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-14.295403006995201, 12.458710411103539]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4140389,
+      "properties": {
+        "name": "Kepler 4140389",
+        "desig": "0.9030106254451309",
+        "con": "",
+        "mag": -1,
+        "bv": 3.6120425017805236
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [158.42330537003772, -5.168631547482278]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5361507,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.2048007381646997
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-174.32050072517586, 78.93372197808094]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7121141,
+      "properties": {
+        "name": "Kepler 7121141",
+        "desig": "0.9261613990818311",
+        "con": "",
+        "mag": -1,
+        "bv": 3.7046455963273246
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [56.4613475447656, -80.75951298779182]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2549511,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.235724392303398
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [171.64698880140844, -52.00212820205539]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2741198,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.28348483656287193
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.48883808567479, 79.22435700193734]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8276996,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.9616287390942428
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.207381497485642, 74.18448962513975]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3990183,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.9458565048692176
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.2932391356069, -155.37872144872705]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6913579,
+      "properties": {
+        "name": "Kepler 6913579",
+        "desig": "0.9582018747932759",
+        "con": "",
+        "mag": -1,
+        "bv": 3.8328074991731036
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.201372991984414, 49.260187652608835]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9402569,
+      "properties": {
+        "name": "Kepler 9402569",
+        "desig": "0.9027294286318284",
+        "con": "",
+        "mag": -1,
+        "bv": 3.6109177145273135
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [172.79697714804996, -46.2183328651428]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 24884,
+      "properties": {
+        "name": "Kepler 24884",
+        "desig": "0.9854086455608029",
+        "con": "",
+        "mag": -1,
+        "bv": 3.9416345822432115
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-159.37414327212016, -17.499674240253484]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4903403,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.8386674223119064
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-25.375610275341955, -24.06118844560686]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7697054,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.0082539119279676
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.9592639688735, -58.70894748964943]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 852209,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.40371922741989774
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-24.85599952889075, -111.26763030145325]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2488497,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.9419839190875736
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.38022378512281, 56.1810134531633]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9534400,
+      "properties": {
+        "name": "Kepler 9534400",
+        "desig": "0.8940105606445736",
+        "con": "",
+        "mag": -1,
+        "bv": 3.5760422425782945
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-159.39304109140286, 74.18564992272121]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1872392,
+      "properties": {
+        "name": "Kepler 1872392",
+        "desig": "0.9542162671744034",
+        "con": "",
+        "mag": -1,
+        "bv": 3.8168650686976138
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-147.42365166879154, 16.496614416788333]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3251204,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.1159530586521393
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.027164812843239, 88.70147692941691]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8650113,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.0752272490950885
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.00479494182045, 47.54699392673945]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1885346,
+      "properties": {
+        "name": "Kepler 1885346",
+        "desig": "0.9621061366564911",
+        "con": "",
+        "mag": -1,
+        "bv": 3.8484245466259646
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-114.94701337763387, 98.68531494595311]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 132084,
+      "properties": {
+        "name": "Kepler 132084",
+        "desig": "0.8590147974235571",
+        "con": "",
+        "mag": -1,
+        "bv": 3.4360591896942285
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.78737563198723, -162.1303375588579]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5166221,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.203648095843188
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [43.20770370590026, 41.0563305942043]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1368434,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.0804220589409024
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.758906005767784, 4.012437892302756]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8112829,
+      "properties": {
+        "name": "Kepler 8112829",
+        "desig": "0.9357912308217837",
+        "con": "",
+        "mag": -1,
+        "bv": 3.743164923287135
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.11256912057564, -127.55002816304852]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6115795,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.2276835652440328
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.83357485275832, -109.60326453088665]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9610544,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.0180710935192554
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-130.77572335862038, -68.61858551351261]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6131749,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.1772306900269838
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.45492313661708, -122.24655418758437]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 889135,
+      "properties": {
+        "name": "Kepler 889135",
+        "desig": "0.956114303560808",
+        "con": "",
+        "mag": -1,
+        "bv": 3.824457214243232
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.676564208906058, -134.47421971821782]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 122945,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.38707007419376
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.59028569949476, 46.24001108407711]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8176574,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.352183042413615
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [166.54298789460148, -151.77858024538023]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6105768,
+      "properties": {
+        "name": "Kepler 6105768",
+        "desig": "0.9904864554814399",
+        "con": "",
+        "mag": -1,
+        "bv": 3.9619458219257595
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-44.766141776937275, -147.10631584806455]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9260410,
+      "properties": {
+        "name": "Kepler 9260410",
+        "desig": "0.8789851867751648",
+        "con": "",
+        "mag": -1,
+        "bv": 3.515940747100659
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [169.255355013219, -137.14047396863145]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7346480,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.5689272037310458
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [155.4149697943265, -68.29772141861729]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 356462,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.8266715590431515
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.56532402485179, 100.71462202286449]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 260267,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.4076729527400067
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.813107019109964, 61.32834225349859]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9591129,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.6622026036827755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.53255059877168, -38.36765078889184]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8962456,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.46711056985684785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-28.519688421570493, -5.5232089143635505]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5685648,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.057996534895059
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-164.58974436260917, 1.9445208409383952]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 822895,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.2003772247024065
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [169.9295478862113, 7.186392744198315]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6112382,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.272586021736048
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.50284843404327, 11.147004429584058]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 759281,
+      "properties": {
+        "name": "Kepler 759281",
+        "desig": "0.8068123104661831",
+        "con": "",
+        "mag": -1,
+        "bv": 3.2272492418647323
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.017501945947544, -22.49658019117109]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2802466,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.9503046784079112
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [87.33018016423063, 64.50795337328532]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8372265,
+      "properties": {
+        "name": "Kepler 8372265",
+        "desig": "0.8367212845849528",
+        "con": "",
+        "mag": -1,
+        "bv": 3.346885138339811
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.55691782858389, -4.083390760557791]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1844274,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.6842626904132167
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.711562118278891, 78.0760446767793]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 731101,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.2936879043359832
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-133.29658720728344, -101.94530087232093]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9552359,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.9921722871176657
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-56.42153374479683, -61.529309267782494]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2507218,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.2339782695804935
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.4878489798689, 45.662435772724564]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2189585,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.9659699867539357
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-154.4882860111761, -151.59305329351432]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9988950,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.8993098266672126
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.71626710932946, -112.8110199227477]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 159116,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.7201870659263756
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-38.35072363292019, -78.58445763498563]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 393607,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.1416803795756163
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.39616183616954, 48.74158510101651]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5755,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.5835452700640404
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-165.562597710398, 18.09949538262012]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8973921,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.45631340723410574
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.00906453651697, 29.89980193018667]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 697947,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.1488153219516777
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.390882240466766, -48.308405873249285]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 900431,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.9553222688662091
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.6822895553930834, -97.57214247450378]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3343616,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.1163965906726228
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.45583649460167, 60.86918223475118]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3584818,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.18894041995902
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-116.43852504950917, 69.63365142930999]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3253472,
+      "properties": {
+        "name": "Kepler 3253472",
+        "desig": "0.9779304793303074",
+        "con": "",
+        "mag": -1,
+        "bv": 3.9117219173212296
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.25476944932615, -78.55259055571861]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4732657,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.2577355081337886
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-146.14565798092482, -20.780930661518397]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3997576,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.630535686947728
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.875758817683646, -47.984032951140904]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8502843,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.4717167733644105
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-135.75633597078067, -162.6446737065856]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3542494,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.664423531459346
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.49371217732849, -79.40724049968671]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1495663,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.9257614698549848
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-128.77688470713534, -44.3347109853336]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 922371,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.4163364613983376
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-178.1641161842917, -118.83566584645726]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 786181,
+      "properties": {
+        "name": "Kepler 786181",
+        "desig": "0.9805403903585701",
+        "con": "",
+        "mag": -1,
+        "bv": 3.9221615614342804
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.590006019873528, 97.43383761288675]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3765401,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.5948317955901246
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [173.02853771218645, -40.12991515337467]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5646723,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.9180792165037293
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.91527549944595, 77.21179191227907]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4660215,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.1189611579091903
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-103.37931328352533, -77.4851166782402]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6377588,
+      "properties": {
+        "name": "Kepler 6377588",
+        "desig": "0.9050718188224653",
+        "con": "",
+        "mag": -1,
+        "bv": 3.6202872752898614
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.47509689459906, 89.13525843486866]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8747735,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.0085781942517942
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.99532674745723, -2.153802879045344]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8487862,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.4165135869172198
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.6276434820829309, -111.46298548869329]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3974429,
+      "properties": {
+        "name": "Kepler 3974429",
+        "desig": "0.8637897080879375",
+        "con": "",
+        "mag": -1,
+        "bv": 3.45515883235175
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.62666200126296, -98.54109590112596]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1809062,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.9235119834324417
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.78177490226413, -167.50584949173557]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2656657,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.004672857560840349
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.58665082618188, 19.5552619593509]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 530886,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.129434077890476
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.77940285746445, -90.11432276257632]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1178390,
+      "properties": {
+        "name": "Kepler 1178390",
+        "desig": "0.867920964041623",
+        "con": "",
+        "mag": -1,
+        "bv": 3.471683856166492
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.12335036309156, -172.03015848455385]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 577613,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.08776296102102066
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-145.7145063682633, 76.16259394106334]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5861159,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.4459135264041763
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-63.33245170478094, 32.954188513125416]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3361371,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.427200901075718
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.5096840340743, -39.62584442265512]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7776310,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.1918729883519354
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-126.80967419214392, -175.7187789599611]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4555712,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.7214653413333814
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.663586618153346, -143.9103885649968]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3369375,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.17029814410922484
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-125.83058418432192, 43.10512555882525]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4189605,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.8018267821911307
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-39.220830250773105, 49.41534257274165]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5001425,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.04373356909505599
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.90224513332109, -88.7471626711874]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 498158,
+      "properties": {
+        "name": "Kepler 498158",
+        "desig": "0.850219850353205",
+        "con": "",
+        "mag": -1,
+        "bv": 3.40087940141282
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-158.2005292571705, 45.396255200506715]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2123711,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.4434051581138023
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-135.977662784572, 19.96488004280519]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 774514,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.8200013814547162
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [162.152758630873, -8.58613218758859]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2739392,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.4988587193349083
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-144.54937377825786, 22.753890910897354]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 47392,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.6790601467521817
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.08563428445797, -38.483548450351066]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3550068,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.5095763733035197
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [177.30025232322237, 41.06086808510304]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3875376,
+      "properties": {
+        "name": "Kepler 3875376",
+        "desig": "0.946078076757773",
+        "con": "",
+        "mag": -1,
+        "bv": 3.784312307031092
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.72175002182388, -140.51893302982515]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7367942,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.0061623505883999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-21.848317008273597, 55.934302049692064]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1387904,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.9887682357411265
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.68937480236707, -45.109029870388724]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3328153,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.5908964349047388
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [160.45130053330035, 78.90933046912625]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2996649,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.896259567076795
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.470256977929125, -84.07958992271067]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8584469,
+      "properties": {
+        "name": "Kepler 8584469",
+        "desig": "0.8537639019277916",
+        "con": "",
+        "mag": -1,
+        "bv": 3.4150556077111665
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-147.31552721798286, -71.61425209284668]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4075526,
+      "properties": {
+        "name": "Kepler 4075526",
+        "desig": "0.9123672277440988",
+        "con": "",
+        "mag": -1,
+        "bv": 3.6494689109763954
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.27964119852044, -2.7790640147079273]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 982309,
+      "properties": {
+        "name": "Kepler 982309",
+        "desig": "0.8714675725699952",
+        "con": "",
+        "mag": -1,
+        "bv": 3.4858702902799807
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-176.38053122722786, 26.20101363191108]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9763370,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.1130571708363073
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.26515835131758, 27.787436342665984]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6553646,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.799200891157838
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.08935281942001, -3.753916665450788]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 427597,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.22748590432162707
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-131.61579494489874, -113.50919201908583]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2078631,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.6095046278853085
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-163.11722674069986, -158.24302559014092]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7987320,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.026433231245232
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.16534493056741, 98.08077656068065]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9723146,
+      "properties": {
+        "name": "Kepler 9723146",
+        "desig": "0.8729763272318309",
+        "con": "",
+        "mag": -1,
+        "bv": 3.4919053089273238
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.562483347635265, -84.67304006359745]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5670267,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.2637737473004966
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-48.04186526344225, -1.1111274169681167]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1486755,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.4777268420773018
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [155.56136560240958, 96.04990870040785]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2565138,
+      "properties": {
+        "name": "Kepler 2565138",
+        "desig": "0.8453018313483451",
+        "con": "",
+        "mag": -1,
+        "bv": 3.3812073253933805
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.0485662478954, -16.577167991377536]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5465418,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.22506829027376
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100.12163027964613, 5.780361356551225]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8158629,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.6199576020370454
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.832562883629123, -0.2156579702431145]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6547320,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.320150970185069
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.140560892764654, -106.91618565459954]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7904518,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.5941706799837467
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [170.60545591836063, -24.045480385875464]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5899876,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.8299372480295952
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-160.29451607881236, -105.4135311471493]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3700664,
+      "properties": {
+        "name": "Kepler 3700664",
+        "desig": "0.9103177157050772",
+        "con": "",
+        "mag": -1,
+        "bv": 3.641270862820309
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-138.19114644319075, 31.44923776328318]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4797673,
+      "properties": {
+        "name": "Kepler 4797673",
+        "desig": "0.9176958943397915",
+        "con": "",
+        "mag": -1,
+        "bv": 3.670783577359166
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.54017395105467, 3.7806415181252078]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6924019,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.5020215339382315
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-19.365897823054325, -142.26756263640675]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1765133,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.1336067679718225
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-30.074867488361747, -62.89832353565966]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1986620,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.05554194086057951
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [171.50862040745835, 64.27495073203636]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9286652,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.7481424105560137
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-36.489305948212404, -101.4551424602278]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6505943,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.45020322269755386
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.152407481858347, 42.444902216818946]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8673335,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.0252315476673584
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.87535847748364, -106.14745408451955]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4187278,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.3906797065093537
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.52909556440565, -147.7330360962965]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4559899,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.6738652617508887
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.97779133930723, 58.66333119296934]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1059893,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.05133777282673613
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-102.36469931876003, -51.373909296348586]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6502896,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.8037194382772777
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-130.98342823763022, -36.97049194478328]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1528324,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.5202434061528782
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.95164169664002, -114.56811892683643]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1495361,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.662162190395887
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.8009696652627554, 47.68377363848302]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 276358,
+      "properties": {
+        "name": "Kepler 276358",
+        "desig": "0.9459883906320903",
+        "con": "",
+        "mag": -1,
+        "bv": 3.783953562528361
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.4345633857755, -94.8749037176067]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9766610,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.4273214218451704
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [64.18158389839635, -114.34709019901653]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3880513,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.5119898474406774
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.80588767130656, -57.16669163952281]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2595893,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.51201908522855
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-24.170180261870172, 28.721851723714053]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6880115,
+      "properties": {
+        "name": "Kepler 6880115",
+        "desig": "0.966634704107906",
+        "con": "",
+        "mag": -1,
+        "bv": 3.866538816431624
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.72646297532202, 1.1514856329447412]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8033511,
+      "properties": {
+        "name": "Kepler 8033511",
+        "desig": "0.8105046022673199",
+        "con": "",
+        "mag": -1,
+        "bv": 3.2420184090692796
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.62628272151893, -7.476334904941268]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9767028,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.7006405359633021
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [54.73590219766231, -79.0427910034492]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3591102,
+      "properties": {
+        "name": "Kepler 3591102",
+        "desig": "0.8327429214602882",
+        "con": "",
+        "mag": -1,
+        "bv": 3.3309716858411527
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.534717369729634, -110.28874963687798]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 842347,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.3035368035545707
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.27319406682636, -90.4360173139908]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6756922,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.2645624889749865
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.17874555484896, -44.40354538589264]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4378480,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.0649020237522127
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.63328333575718, -79.31261540874523]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2547133,
+      "properties": {
+        "name": "Kepler 2547133",
+        "desig": "0.8954058792623978",
+        "con": "",
+        "mag": -1,
+        "bv": 3.581623517049591
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.14258726475298, 81.0453707613035]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3719856,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.0124320745029056
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.85222583428515, -81.34748301420291]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4334474,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.9713355105084034
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.4560787625968, 42.35592621338853]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2740492,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.2863516180366874
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-141.83499553055802, -90.47561071669118]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2779435,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.8450165270986956
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [65.0410491880665, -26.048115528981157]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7928465,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.031027788381943644
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-57.756840190757416, -156.5744954026664]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6674976,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.8677934166235168
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.62867488067413, 76.81492600287822]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8896809,
+      "properties": {
+        "name": "Kepler 8896809",
+        "desig": "0.8929028927265474",
+        "con": "",
+        "mag": -1,
+        "bv": 3.5716115709061897
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-149.14354620771456, 56.232403948161476]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 286067,
+      "properties": {
+        "name": "Kepler 286067",
+        "desig": "0.9532742138422077",
+        "con": "",
+        "mag": -1,
+        "bv": 3.8130968553688307
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.5859356721200015, 6.524336191658165]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1563024,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.4388592067568826
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-131.681874261489, -171.35914465956836]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2030930,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.8883208344425348
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.060353641163545, 27.589864017279012]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2973678,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.8278090186224203
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-176.89241022929554, -114.56945171734696]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2320052,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.9525940066496155
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [54.01697862303604, -99.59402261710586]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7492588,
+      "properties": {
+        "name": "Kepler 7492588",
+        "desig": "0.9529222435106812",
+        "con": "",
+        "mag": -1,
+        "bv": 3.811688974042725
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.89810108916004, -95.63732135214342]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2762562,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.1822400450708033
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-13.857707840717524, 26.151243555093316]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8631734,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.068104404439122
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.0521179359567, -39.61375580470872]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 137328,
+      "properties": {
+        "name": "Kepler 137328",
+        "desig": "0.9496403042481156",
+        "con": "",
+        "mag": -1,
+        "bv": 3.7985612169924625
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-150.77572263798382, -169.09682210918356]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3944348,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.359059709380083
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.508764083481, 21.11783004805241]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8381035,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.70234761522552
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-145.36699667919456, -161.74168152003267]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4358791,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.763300328269847
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.76904272193926, 64.72394519023712]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3736259,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.31769380211896614
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [175.04356038227996, 77.48855357525684]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5018310,
+      "properties": {
+        "name": "Kepler 5018310",
+        "desig": "0.866842805695661",
+        "con": "",
+        "mag": -1,
+        "bv": 3.467371222782644
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-30.998664190705767, -31.854107757717344]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3933495,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.5781552381382555
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.4727735355365, -18.549171033627545]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7133198,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.8796037766740437
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [112.87251049119266, -120.0157659023071]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7868402,
+      "properties": {
+        "name": "Kepler 7868402",
+        "desig": "0.8814748798463488",
+        "con": "",
+        "mag": -1,
+        "bv": 3.525899519385395
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.93113358947186, -12.303373118953715]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2126122,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.11524747427681614
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-144.0845317027571, -126.24016211471384]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 213290,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.073517891491818
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.24985154769888, 82.78211783223048]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9520805,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.6304322248989802
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.51109634444569, 48.31290129665939]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2226563,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.044742457691772
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.10313997543318, 78.16630973657368]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6050609,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.463205873598433
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.934818544997114, -128.85722734262416]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7579222,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.18765993897721422
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.00629734647327, -88.3642719154499]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4775471,
+      "properties": {
+        "name": "Kepler 4775471",
+        "desig": "0.8320398447673394",
+        "con": "",
+        "mag": -1,
+        "bv": 3.3281593790693575
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.85004937288, -61.729951084900094]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9338305,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.370093876229469
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-113.05430174732335, -91.28832725685578]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3769786,
+      "properties": {
+        "name": "Kepler 3769786",
+        "desig": "0.9984915482356316",
+        "con": "",
+        "mag": -1,
+        "bv": 3.9939661929425263
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [171.4851746193488, -100.24781713808287]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8888917,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.8468588345775503
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-47.8467685041324, -69.24628466410655]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6957654,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.336454916413696
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-131.65106582274925, 66.13178231022928]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 183531,
+      "properties": {
+        "name": "Kepler 183531",
+        "desig": "0.9382121688602496",
+        "con": "",
+        "mag": -1,
+        "bv": 3.7528486754409984
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.196916561814618, 83.22425278083693]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8340024,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.46664299896763595
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.8859931752018, 85.12176250106683]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2255266,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.2347800229891268
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-164.64733205199792, -61.22838965694109]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9303704,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.9935780811089954
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.0001631658883, -2.1685286829478514]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2535989,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.4279218507938127
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-123.74488540662165, -74.25481664028536]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1199139,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.7384274958093924
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-154.11316958891234, -139.00224004224702]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9927532,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.046508829807685
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.98874609045362, 43.84237299884103]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7690476,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.091191837066024
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.7118828474238, -55.88892550490425]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5361913,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.2318676688238037
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.0806059259515, -107.76718470613966]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4210059,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.3477812752298455
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [168.78087523730323, -14.819335981624164]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1905544,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.7688287006700234
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.50935831632069, -49.791713289121674]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 45088,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.739756103490822
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.02663706428376, -81.96113194018908]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8826008,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.1279198586922412
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.33184239814918, -165.79242559578447]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4549647,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.5432767273661074
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.27307692895849, -79.38656291702155]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8747110,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.7079446764789488
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-144.62658273522345, -23.685219450813378]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 853932,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.2980468294365206
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.6679751073372, -88.31301131383822]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3416305,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.3308821537940574
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [171.05840426252342, -103.43907933233754]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6256583,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.5031523469595633
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-178.08664217507524, 58.82653355204451]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5171595,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.7707994201537964
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [172.52117968733972, -132.38324662718998]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 183404,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.886396014150975
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.66997270543334, -126.88880986829776]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5651065,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.3150163338999983
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.4591201914296, 65.78436990098643]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4617459,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.3658544662334382
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.563453832839372, -73.33784467390355]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3038534,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.4467489638705064
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [178.95560891476623, -126.03255162604847]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 420200,
+      "properties": {
+        "name": "Kepler 420200",
+        "desig": "0.91002343856315",
+        "con": "",
+        "mag": -1,
+        "bv": 3.6400937542526
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [165.20958003675776, -176.57522008609868]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6281280,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.7941679932722536
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.96704688818642, -168.82279292738735]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9751155,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.8855448789468827
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.17744350934886, 17.460282889526184]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4608098,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.3382777640493684
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.83168309926785, 1.9553184015819625]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4200295,
+      "properties": {
+        "name": "Kepler 4200295",
+        "desig": "0.8706741830803717",
+        "con": "",
+        "mag": -1,
+        "bv": 3.482696732321487
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.07585489527878, -46.565470963077985]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6206127,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.8449557952678592
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.70571926011672, 79.19660224230813]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5034652,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.9842567026996543
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.7147021478678, -8.26057074372983]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8609334,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.115732555274044
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.53269945294801, -18.791108934714032]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9841765,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.302297326515923
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.4365405996897, -35.59816312867298]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2999155,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.761534527031414
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [99.23462502931676, -26.709989838490344]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8041600,
+      "properties": {
+        "name": "Kepler 8041600",
+        "desig": "0.8434824832229373",
+        "con": "",
+        "mag": -1,
+        "bv": 3.373929932891749
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-132.32366513693162, -73.56271596957139]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6055547,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.493591207100563
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-148.20048169801657, -16.327881074637702]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9600427,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.6751916862820444
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-113.59460516481298, -67.86959220267258]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7714063,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.0998059887706972
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.12496815101451, -121.73046015207794]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6640093,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.4125066948768943
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-138.8245019467177, 93.07865925456389]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2961538,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.989511688713855
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-32.74743307412896, -9.309862201722638]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1507246,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.4979707322355296
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.99410322941182, 42.44810288037934]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8676277,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.1370489554089431
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.06573381626794, -80.63577629015143]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4385167,
+      "properties": {
+        "name": "Kepler 4385167",
+        "desig": "0.8804125384628272",
+        "con": "",
+        "mag": -1,
+        "bv": 3.5216501538513088
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [56.703662336953215, -39.27729948147018]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9139906,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.9215797575663771
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.94838789879671, 25.97388397040129]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9384528,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.6801481038743269
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-160.1167205150122, 40.25336262611469]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8379284,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.4465406209381566
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-161.04286530705036, -117.93594979973007]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7902716,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.7164480767188746
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-54.50606504029787, -70.16236949192]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9518071,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.6287954404167744
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.754421221158964, 67.90419138487371]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7203005,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.22769699347109285
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [169.07636970400495, 40.20679677056094]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6848425,
+      "properties": {
+        "name": "Kepler 6848425",
+        "desig": "0.922709999481163",
+        "con": "",
+        "mag": -1,
+        "bv": 3.690839997924652
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-113.85009239552403, -42.406906159306374]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 610596,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.1430896212137034
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-38.1908169713538, 4.474366950476934]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9597510,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.734124583551381
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.40518109847497, -75.27003079379053]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5411474,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.3520637632886752
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.5654442643525, -119.11182189137406]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9257272,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.8528501032916695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.72188145045277, 3.572700422052634]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1290999,
+      "properties": {
+        "name": "Kepler 1290999",
+        "desig": "0.8059048335146699",
+        "con": "",
+        "mag": -1,
+        "bv": 3.2236193340586796
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.54557924478131, 20.06330339806925]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3169450,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.349679153402316
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [157.01752293190492, -72.89379278829371]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 349129,
+      "properties": {
+        "name": "Kepler 349129",
+        "desig": "0.9886717967309082",
+        "con": "",
+        "mag": -1,
+        "bv": 3.954687186923633
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.42850500724376, 26.052825166495296]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8706658,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 0.856233585714584
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [160.9356146857898, 99.4931569390946]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4633539,
+      "properties": {
+        "name": "Kepler 4633539",
+        "desig": "0.8110629474437083",
+        "con": "",
+        "mag": -1,
+        "bv": 3.2442517897748333
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.41311838259435, 62.265932385735994]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9255717,
+      "properties": {
+        "name": "Kepler 9255717",
+        "desig": "0.8233056666878411",
+        "con": "",
+        "mag": -1,
+        "bv": 3.2932226667513644
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.18238451737781, -64.58993825923332]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4224814,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.370901231152133
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.085862731801924, -44.80408687729684]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 2584631,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.6012374108548135
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-56.70830030861441, 50.02009345025601]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 957189,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.1056141257562926
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.09111391638544, -104.70324815173299]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3014491,
+      "properties": {
+        "name": "Kepler 3014491",
+        "desig": "0.9309091560586145",
+        "con": "",
+        "mag": -1,
+        "bv": 3.723636624234458
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-142.37162372735358, -55.467978478586815]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8304945,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.0266564516142198
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-130.05074724515038, -61.15376978804082]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 6815256,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.9126629585329917
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-108.06467791999987, -59.630431845669946]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1194974,
+      "properties": {
+        "name": "Kepler 1194974",
+        "desig": "0.9079077554991628",
+        "con": "",
+        "mag": -1,
+        "bv": 3.631631021996651
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [97.53293148576847, -75.58573714675627]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 9800656,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.3901681733058453
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [168.77234164982457, 81.85983356325346]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 3960223,
+      "properties": {
+        "name": "Kepler 3960223",
+        "desig": "0.9526565304685828",
+        "con": "",
+        "mag": -1,
+        "bv": 3.810626121874331
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-136.1875226015519, -122.59680688229852]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1203026,
+      "properties": {
+        "name": "Kepler 1203026",
+        "desig": "0.9830093520299872",
+        "con": "",
+        "mag": -1,
+        "bv": 3.9320374081199487
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.73123168342852, -89.49934892522663]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5877608,
+      "properties": {
+        "name": "Kepler 5877608",
+        "desig": "0.8072978415680312",
+        "con": "",
+        "mag": -1,
+        "bv": 3.2291913662721248
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.34204593398228, 97.6306776061839]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 7567938,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.752543300545777
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.14003346578755, 95.28645720323902]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5013352,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 3.143601962652422
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-31.757149503841845, 41.06606323387024]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8387977,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.9299378628711157
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-163.98726410190537, -151.12172162935678]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 1324745,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.010876563136458
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.59016833941138, -149.47895138790594]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 4770087,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 2.801281745652777
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-54.847742306358555, 94.53926269637486]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 8955387,
+      "properties": {
+        "name": "Kepler 8955387",
+        "desig": "0.8542678571504192",
+        "con": "",
+        "mag": -1,
+        "bv": 3.417071428601677
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.65542891667934, 55.808045059501666]
+      }
+    } ,{
+      "type": "Feature",
+      "id": 5642213,
+      "properties": {
+        "name": "",
+        "desig": "",
+        "con": "",
+        "mag": -1,
+        "bv": 1.1536619333999694
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-64.72423746535934, -64.8946869996531]
+      }
+    } ] }

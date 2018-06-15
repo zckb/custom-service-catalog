@@ -1,0 +1,17 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+@{
+    ViewBag.Title = "Error";
+}
+<html>
+<head>
+    <link href="~/Content/Styles/Error.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div>
+    <div class="errorMessage">
+        <label>@ViewBag.ErrorMessage</label>
+        <label>@ViewBag.ErrorDetails</label>
+    </div>
+</div>
+</body>
+</html>

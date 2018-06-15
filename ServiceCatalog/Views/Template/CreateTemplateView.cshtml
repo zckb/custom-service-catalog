@@ -1,0 +1,129 @@
+﻿@model ServiceCatalog.Models.TemplateViewModel
+
+@{
+    ViewBag.Title = "Add Template";
+}
+
+<div style="min-height: 400px;">
+    @using (Html.BeginForm("CreateTemplate", "Template", FormMethod.Post,
+    new
+    {
+        @class = "form-horizontal",
+        role = "form",
+        enctype = "multipart/form-data",
+        id = "create-template-id"
+    }))
+    {
+        <h4>Create Template</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.TemplateData, new { @class = "col-sm-2 control-label" })
+            <div class="col-md-4">
+                @Html.TextBoxFor(m => m.TemplateData, new { @class = "add-template-input choose-button form-control", type = "file", accept = ".json", aria_describedby = "fileHelp" })
+                <small id="fileHelp" class="form-text text-muted">
+                    Choose a local file or specify a link, e.g.:<br> http://contoso.com/template.json
+                </small>
+                @Html.ValidationMessageFor(m => m.TemplateData)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.TemplateJsonVersion, new { @class = "col-sm-2 control-label" })
+            <div class="col-md-4">
+                @Html.TextBoxFor(m => m.TemplateJsonVersion, new { @class = "add-template-input form-control" })
+                @Html.ValidationMessageFor(m => m.TemplateJsonVersion)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Comment, new { @class = "col-sm-2 control-label" })
+            <div class="col-md-4">
+                @Html.TextAreaFor(m => m.Comment, new { @class = "add-template-input form-control", style = "height: 100px;" })
+                @Html.ValidationMessageFor(m => m.Comment)
+            </div>
+        </div>
+        <div class="hidden">
+            @Html.TextAreaFor(m => m.TemplateUsersGroup, new { @class = "add-template-input" })
+            @Html.ValidationMessageFor(m => m.TemplateUsersGroup)
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.IsManageTemplate, new { @class = "col-sm-2 control-label" })
+            <div class="col-md-4">
+                @Html.RadioButtonFor(m => m.IsManageTemplate, true, new { id = "manage-template-id", @class = "add-template-input form-control", style = "width:  20px;display: inline;" })
+                @Html.Label("manage-template-id", "Manage")
+
+                @Html.RadioButtonFor(m => m.IsManageTemplate, false, new { id = "deploy-template-id", @class = "add-template-input form-control", style = "width:  20px;display: inline;" })
+                @Html.Label("manage-template-id", "Deploy")
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Available to All</label>
+            <div class="col-md-4">
+                <input id="allow-to-all" class="form-check-input form-control" type="checkbox" value="" style="width: 20px;height: 20px;">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">User Groups</label>
+            <div class="col-md-4">
+                <select id="groups-id" multiple="multiple" name="groups-id" class="add-template-input form-control" size="6">
+                    @foreach (var group in ViewBag.Groups)
+                    {
+                        <option title="@group.Description" value="@group.ObjectId">@group.DisplayName</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Users</label>
+            <div class="col-md-4">
+                <select id="users-id" multiple="multiple" name="users-id" class="add-template-input form-control" size="6">
+                    @foreach (var user in ViewBag.Users)
+                    {
+                    <option title="@user.UserPrincipalName" value="@user.UserPrincipalName">@user.DisplayName (@user.UserPrincipalName.Substring(0, @user.UserPrincipalName.IndexOf("@")))</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-5">
+                <button id="save" type="submit" class="btn btn-success col-md-5">Save</button>
+            </div>
+        </div>
+    }
+</div>
+
+@section scripts
+{
+    <script>
+        if (!window.jQuery) {
+            console.error("jQuery is not defined");
+        } else {
+            (function ($) {
+                $('#create-template-id').submit(validateForm);
+
+                function validateForm() {
+                    if (!$("#allow-to-all").prop("checked")) {
+                        var templateUsersGroup = [];
+                        $('#groups-id option:selected').each(function () {
+                            templateUsersGroup.push($(this).val());
+                        });
+                        $('#users-id option:selected').each(function () { templateUsersGroup.push($(this).val()); });
+                        $('#TemplateUsersGroup').val(templateUsersGroup.join(','));
+                    }
+                    else {
+                        $('#TemplateUsersGroup').val('*');
+                    }
+
+                    return true;
+                }
+
+                $("#allow-to-all").on("change",
+                    function () {
+                        var checked = $(this).prop("checked");
+                        document.getElementById("groups-id").disabled = checked;
+                        document.getElementById("users-id").disabled = checked;
+                    });
+            })(window.jQuery);
+        }
+    </script>
+}

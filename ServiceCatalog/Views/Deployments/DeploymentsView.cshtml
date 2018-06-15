@@ -1,0 +1,92 @@
+﻿@using GridMvc.Filtering
+@using GridMvc.Html
+@model IEnumerable<ServiceCatalog.Models.DeploymentViewModel>
+
+@{
+    ViewBag.Title = "Deployment Logs";
+}
+
+<div id="deployments">
+    <div style="display:  flex; justify-content: space-between;">
+        <h4>Deployment Logs</h4>
+        <button class="btn btn-primary" style="height: 10%;" onclick="window.location.reload();">Refresh</button>
+    </div>
+    <hr />
+    @Html.Grid(Model).Columns(columns =>
+        {
+            columns.Add(m => m.TemplateName)
+                .Titled("Template Name").Filterable(true)
+                .SetInitialFilter(GridFilterType.Contains, "");
+
+            columns.Add(m => m.DeploymentName)
+                .Titled("Deployment Name").Filterable(true);
+
+            columns.Add(m => m.SubscriptionName)
+                .Titled("Subscription Name").Filterable(true);
+
+            columns.Add(m => m.ProvisioningState)
+                .Titled("Status").Filterable(true);
+
+            columns.Add(m => m.TemplateVersion)
+                .Titled("Version").Filterable(true);
+
+            columns.Add(m => m.Timestamp)
+                .Titled("Time").Filterable(true)
+                .RenderValueAs(s => s.Timestamp.ToString("MM/dd/yyyy hh:mm"));
+
+            columns.Add(m => m.Owner)
+                .Titled("Owner").Filterable(true)
+                .RenderValueAs(m => m.Owner.Substring(0, m.Owner.IndexOf("@", StringComparison.Ordinal)));
+
+            columns.Add()
+                .Encoded(false)
+                .Sanitized(false)
+                .Titled("Outputs").Filterable(false)
+                .RenderValueAs(col =>
+                    @<a class="btn btn-primary show-button" data-toggle="modal" data-target="#outputsModal">
+                        Show Outputs
+                        <p style="display: none;">
+                            @col.Outputs
+                        </p>
+                    </a>);
+            columns.Add()
+                .Encoded(false).Sanitized(false).Titled("Logs").Filterable(false)
+                .RenderValueAs(col =>
+                            @Html.ActionLink("Download Log", "GetLogFile", "Deployment",
+                                new { fileName = ViewBag.FileLogName },
+                                new { @class = "btn btn-danger" }));
+                }).WithPaging(10).Sortable(true).WithMultipleFilters()
+</div>
+
+@{
+    Html.RenderPartial("_Modal");
+}
+
+@section scripts
+{
+    <script>
+        if (!window.jQuery) {
+            console.error("jQuery is not defined");
+        } else {
+            (function ($) {
+                $('.show-button').click(function (event) {
+                    $('#myModal').modal('show');
+                    $('#myModalLabel').text('Outputs');
+                    $('#outputsModalBody').val($.trim(event.target.children[0].innerText));
+                });
+                setInterval(function () {
+                    window.location.reload();
+                }, 35000);
+                $.ajaxSetup({ cache: false });
+                $("td:contains('Succeeded')").each(function () {
+                    var regex = new RegExp('Succeeded', 'gi');
+                    $(this).html($(this).text().replace(regex, "<td class='successed-status'>Succeeded</td>"));
+                });
+                $("td:contains('Failed')").each(function () {
+                    var regex = new RegExp('Failed', 'gi');
+                    $(this).html($(this).text().replace(regex, "<td class='failed-status'>Failed</td>"));
+                });
+            })(window.jQuery);
+        }
+    </script>
+}

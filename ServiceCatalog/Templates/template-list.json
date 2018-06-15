@@ -1,0 +1,65 @@
+[
+    {
+        "Name": "Billing-Invoice.json",
+        "Comment": "Download or view your Azure billing invoice and daily usage data",
+        "IsManage": true,
+        "Version": "1.0",
+        "UsersGroup": "*"
+    },
+    {
+        "Name": "Manage-VM.json",
+        "Comment": "This template allows you to manage VMs. e.g. vmName: your VM name; action: Start",
+        "IsManage": true,
+        "Version": "1.0",
+        "UsersGroup": "*"
+    },
+    {
+        "Name": "Ubuntu-Server-Template.json",
+        "Comment": "Ubuntu Server is the world's most popular Linux for cloud environments.",
+        "IsManage": false,
+        "Version": "1.0",
+        "UsersGroup": "*"
+    },
+    {
+        "Name": "Windows-Server-Template.json",
+        "Comment": "Windows Server 2016 is a comprehensive server operating system designed to run the applications and infrastructure that power your business.",
+        "IsManage": false,
+        "Version": "1.0",
+        "UsersGroup": "*"
+    },
+    {
+        "Name": "Moodle-Minimal-Deployment.json",
+        "Comment": "\"This deployment will use NFS, Microsoft SQL, and smaller autoscale web frontend VM sku (1 core) that'll give faster deployment time (less than 30 minutes) and requires only 2 VM cores currently that'll fit even in a free trial Azure subscription. E.g. ssh_key: Create SSH keys with ssh-keygen",
+        "IsManage": false,
+        "Version": "1.0",
+        "UsersGroup": "*"
+    },
+    {
+        "Name": "Moodle-Maximal-Deployment.json",
+        "Comment": "This maximal deployment will use Gluster (for high availability, adding 2 VMs for a Gluster cluster), MySQL with highest SKU, redis cache, elastic search (3 VMs), and pretty large storage sizes (both data disks and DB). E.g. ssh_key: Create SSH keys with ssh-keygen",
+        "IsManage": false,
+        "Version": "1.0",
+        "UsersGroup": "*"
+    },
+    {
+        "Name": "Enable-Programmatic-Deployment.json",
+        "Comment": "Accept terms for a given publisher id(Publisher), offer id(Product) and plan id(Name). E.g. publisher: microsoft-ads; product: windows-data-science-vm; name: windows-data-science-vm",
+        "IsManage": true,
+        "Version": "1.0",
+        "UsersGroup": "*"
+    },
+    {
+        "Name": "Manage-Group-Membership.json",
+        "Comment": "This template allow to adds a member to AAD Group. E.g. groupName: Administrator; userName: user@contoso.com",
+        "IsManage": true,
+        "Version": "1.0",
+        "UsersGroup": "*"
+    },
+    {
+        "Name": "Ubuntu-Server-TensorFlow.json",
+        "Comment": "This Ubuntu Server template have TensorFlow on GPUs using N-series Azure VM instances",
+        "IsManage": false,
+        "Version": "1.0",
+        "UsersGroup": "*"
+    }
+]

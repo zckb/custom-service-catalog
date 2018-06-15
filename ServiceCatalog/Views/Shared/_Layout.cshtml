@@ -1,0 +1,57 @@
+﻿@using System.Web.Configuration
+@using ServiceCatalog.Common.Helpers
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Service Catalog</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/Gridmvc.css")
+</head>
+<body>
+    <div id="spinner" class="spinner" style="display:none;">
+    </div>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="@Url.Action("DeployView", "Deployment")">
+                    <img style="max-width: 100px;max-height: 18px;" alt="Logo" src="@WebConfigurationManager.AppSettings[ConfigurationConstants.LogoUrlName]">
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    @if (Request.IsAuthenticated)
+                    {
+                        <li>@Html.ActionLink("Deploy", "DeployView", "Deployment")</li>
+                        <li>@Html.ActionLink("Deployment Logs", "DeploymentsView", "Deployments")</li>
+                        <li>@Html.ActionLink("Manage", "ManageView", "Deployment")</li>
+                        <li>@Html.ActionLink("Management Logs", "RunBooksView", "RunBooks")</li>
+                        if (UserRoleHelper.IsAdmin(HttpContext.Current.User.Identity.Name))
+                        {
+                            <li>@Html.ActionLink("Add Template", "CreateTemplateView", "Template")</li>
+                        }
+                    }
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            @*<p class="footer-text">&copy; @DateTime.Now.Year</p>*@
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

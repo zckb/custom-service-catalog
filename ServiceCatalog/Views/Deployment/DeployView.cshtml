@@ -1,0 +1,18 @@
+﻿@model ServiceCatalog.Models.TemplateViewModel
+
+@{
+    ViewBag.Title = "Deploy";
+}
+
+<div>
+    @using (Html.BeginForm("Deploy", "Deployment", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+    {
+        <h4>Deploy View</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        Html.RenderPartial("_TemplateView");
+    }
+    @{
+        Html.RenderPartial("_Modal");
+    }
+</div>

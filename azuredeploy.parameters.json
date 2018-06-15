@@ -1,0 +1,40 @@
+{
+  "$schema":
+    "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "repoUrl": {
+      "value": "https://github.com/huzferd/servicecatalog"
+    },
+    "branch": {
+      "value": "master"
+    },
+    "siteName": {
+      "value": ""
+    },
+    "siteAdminUserName": {
+      "value": ""
+    },
+    "applicationId": {
+      "value": ""
+    },
+    "applicationSecretKey": {
+      "value": ""
+    },
+    "tenantName": {
+      "value": ""
+    },
+    "skuName": {
+      "value": "S1"
+    },
+    "sqlAdministratorLogin": {
+      "value": ""
+    },
+    "sqlAdministratorLoginPassword": {
+      "value": ""
+    },
+    "logoUrl": {
+      "value": "https://logic2020.repositoryhosting.com/git_public/logic2020/svccat.git/blob_plain/refs/heads/master:/ServiceCatalog/Content/Images/logo.png"
+    }
+  }
+}

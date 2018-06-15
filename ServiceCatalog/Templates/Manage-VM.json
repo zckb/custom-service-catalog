@@ -1,0 +1,89 @@
+{
+  "$schema":
+    "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName": {
+      "type": "string"
+    },
+    "action": {
+        "type": "string",
+        "allowedValues": [ "Start", "Stop", "Reboot" ]
+    },
+    "jobid": {
+        "type": "string"
+    } 
+  },
+  "variables": {
+    "location": "[resourceGroup().location]",
+    "jobId": "[parameters('jobid')]",
+    "accountName": "service-catalog-automation-account",
+    "runbookName": "Manage-VM",
+    "scriptUri":
+      "https://logic2020.repositoryhosting.com/git_public/logic2020/svccat.git/blob_plain/refs/heads/master:/Scripts/Manage-VM.ps1",
+    "runbookDescription": "Manage VMs runbook",
+    "sku": "Basic"
+  },
+  "resources": [
+    {
+      "name": "[variables('accountName')]",
+      "type": "Microsoft.Automation/automationAccounts",
+      "apiVersion": "2015-01-01-preview",
+      "location": "[variables('location')]",
+      "properties": {
+        "sku": {
+          "name": "[variables('sku')]"
+        }
+      },
+      "resources": [
+        {
+          "type": "runbooks",
+          "name": "[variables('runbookName')]",
+          "apiVersion": "2015-01-01-preview",
+          "location": "[variables('location')]",
+          "tags": {},
+          "properties": {
+            "runbookType": "PowerShell",
+            "logProgress": "true",
+            "logVerbose": "true",
+            "description": "[variables('runbookDescription')]",
+            "publishContentLink": {
+              "uri": "[variables('scriptUri')]",
+              "version": "1.0.0.0"
+            }
+          },
+          "dependsOn": [
+            "[concat('Microsoft.Automation/automationAccounts/', variables('accountName'))]"
+          ]
+        },
+        {
+          "name": "[variables('jobId')]",
+          "type": "jobs",
+          "apiVersion": "2015-01-01-preview",
+          "location": "[variables('location')]",
+          "dependsOn": [
+            "[concat('Microsoft.Automation/automationAccounts/', variables('accountName'))]",
+            "[concat('Microsoft.Automation/automationAccounts/', variables('accountName'), '/runbooks/',variables('runbookName'))]"
+          ],
+          "tags": {},
+          "properties": {
+            "runbook": {
+              "name": "[variables('runbookName')]"
+            },
+            "parameters": {
+              "Action": "[parameters('action')]",
+              "VMName": "[parameters('vmName')]"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "outputs": {
+    "result": {
+      "value":
+        "[concat('Microsoft.Automation/automationAccounts/', variables('accountName'), '/jobs/',variables('jobId'))]",
+      "type": "string"
+    }
+  }
+}

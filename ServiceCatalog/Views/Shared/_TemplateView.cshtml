@@ -1,0 +1,81 @@
+﻿@{
+    var count = 0;
+    if (ViewBag.Templates != null && ViewBag.Templates.Count > 0)
+    {
+        <table class="table table-bordered table-responsive table-hover">
+            <tr>
+                <th class="template-table-header-name">Template Name</th>
+                <th>Comments</th>
+                <th>Version</th>
+                <th>Link To Template</th>
+                <th>Visualize</th>
+                <th>Deploy</th>
+                @if (ViewBag.IsAdmin)
+                {
+                    <th>Manage</th>
+                }
+                <th>Access</th>
+            </tr>
+            @foreach (var template in ViewBag.Templates)
+            {
+                <tr>
+                    <td>@template.TemplateName</td>
+                    <td>
+                        <a class="show-comment-text" data-toggle="modal" data-target="#outputsModal">
+                            <p class="template-table-body-comment">@template.Comment</p>
+                        </a>
+                    </td>
+                    <td>@template.TemplateJsonVersion</td>
+                    <td>
+                        <div class="col-md-3">
+                            @Html.ActionLink("Download JSON template", "GetJsonTemplateFile", "Deployment",
+                                        new { templateId = template.TemplateId },
+                                        new { @class = "btn btn-primary" })
+                        </div>
+                    </td>
+                    <td>
+                        <div class="col-md-3">
+                            @Html.ActionLink("Visualize", "Visualize", "Deployment",
+                                        new { templateId = template.TemplateId },
+                                        new { @class = "btn btn-primary", target = "_blank" })
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="col-md-3">
+                            @Html.ActionLink("Deploy", "ParametersView", "Parameters",
+                                        new { templateId = template.TemplateId, isManage = false },
+                                        new { @class = "btn btn-primary" })
+                        </div>
+                    </td>
+                    @if (ViewBag.IsAdmin)
+                    {
+                        <td>
+                            <div class="btn-group" role="group" style="min-width: 120px;">
+                                @Html.ActionLink("Edit", "UpdateTemplateView", "Template",
+                                            new { templateId = template.TemplateId },
+                                            new { @class = "btn btn-warning" })
+                                @Html.ActionLink("Delete", "DeleteTemplate",
+                                            new { controller = "Deployment", templateId = template.TemplateId },
+                                            new { @class = "btn btn-danger", onclick = "return confirm('Are you sure you wish to delete this article?');" })
+                            </div>
+                        </td>
+                    }
+                    <td>
+                        <a class="btn btn-primary show-button" data-toggle="modal" data-target="#outputsModal">
+                            Show Access List
+                            <p id="output-@count" style="display: none;">
+                                @template.TemplateUsersGroup
+                            </p>
+                        </a>
+                    </td>
+                </tr>
+                count++;
+            }
+        </table>
+    }
+    else
+    {
+        <p>No records to display</p>
+    }
+}

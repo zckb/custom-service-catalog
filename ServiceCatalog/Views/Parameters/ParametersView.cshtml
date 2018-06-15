@@ -1,0 +1,163 @@
+﻿@using ServiceCatalog.Common.Mappers
+@using ServiceCatalog.Models
+@model ServiceCatalog.Models.JsonTemplateParametersViewModel
+
+@{
+    ViewBag.Title = "Parameters View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    @using (Html.BeginForm("Deploy", "Deployment", FormMethod.Post, new
+    {
+        @class = "form-horizontal",
+        role = "form",
+        enctype = "multipart/form-data",
+        id = "deployment-parameters-form"
+    }))
+    {
+        @Html.HiddenFor(m => m.IsManage)
+        var style = "";
+        if (Model.IsManage)
+        {
+            style = "display:none";
+        }
+        <div class="basic-section" style="@style">
+            <h4>BASICS</h4>
+            <hr />
+            @Html.ValidationSummary(true)
+            @Html.HiddenFor(m => m.TemplateId)
+            <div class="form-group col-md-6">
+                <label class="control-label">Subscription</label>
+                @Html.DropDownList(
+                               "SelectedSubscriptionId",
+                               Model.Subscriptions.Select(s =>
+                                   new SelectListItem
+                                   {
+                                       Text = s.DisplayName,
+                                       Value = s.SubscriptionId,
+                                   }),
+                               new { @class = "form-control", id = "subscription-select" })
+                @Html.ValidationMessage("SelectedSubscriptionId")
+            </div>
+            <div class="form-group col-md-6">
+                <label class="control-label">Resource group</label>
+                @Html.DropDownList("SelectedResourceGroupName", new SelectListItem[] { }, new { id = "resource-group-select" })
+            </div>
+        </div>
+
+        <h4>SETTINGS</h4>
+        <hr />
+        for (var i = 0; i < Model.Parameters.Count; i++)
+        {
+            if (Model.Parameters[i].Name == "jobid" && Model.IsManage)
+            {
+                @Html.TextBox(Model.Parameters[i].Name, "value", new { style="display: none;" })
+                continue;
+            }
+
+            <div class="form-group col-md-6">
+                <label class="control-label">@Model.Parameters[i].Name</label>
+                @if (Model.Parameters[i].Type == JsonTemplateParameterType.String)
+                {
+                    if (Model.Parameters[i].AllowedValues?.Count > 0)
+                    {
+                        @Html.DropDownList(Model.Parameters[i].Name,
+                                            new SelectList(Model.Parameters[i].AllowedValues),
+                                            new { @class = "form-control", id = Model.Parameters[i].Name })
+                    }
+                    else
+                    {
+                        @Html.TextBox(Model.Parameters[i].Name, Model.Parameters[i].DefaultValue, new { @class = "form-control" })
+                    }
+                }
+                else if (Model.Parameters[i].Type == JsonTemplateParameterType.SecureString)
+                {
+                    @Html.Password(Model.Parameters[i].Name, "", new { @class = "form-control" })
+                    <div class="form-control-feedback"></div>
+                }
+            </div>
+        }
+
+        <div class="form-group col-md-6">
+            <div class="form-group col-md-5" style="padding-top: 25px;">
+                <button id="deploy" type="submit" class="btn btn-primary">Start Deployment</button>
+            </div>
+        </div>
+    }
+</div>
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/selectize/js")
+    @Styles.Render("~/bundles/selectize/css")
+
+    <script>
+        if (!window.jQuery) {
+            console.error("jQuery is not defined");
+        } else {
+            (function($) {
+                $('#deployment-parameters-form').submit(validateForm);
+
+                var subscriptionSelect = $('#subscription-select');
+
+                var resourceGroupSelectize = $('#resource-group-select').selectize({
+                    create: true,
+                    persist: false,
+                    labelField: 'Name',
+                    valueField: 'Name'
+                })[0].selectize;
+
+                fillResourceGroupList();
+
+                subscriptionSelect.change(fillResourceGroupList);
+
+                function fillResourceGroupList() {
+                    var subscriptionId = subscriptionSelect.val();
+
+                    if (!subscriptionId) {
+                        return;
+                    }
+
+                    var encodedParams = $.param({
+                        subscriptionId: subscriptionId
+                    });
+                    $.get(
+                        '/ResourceGroup/GetResourceGroupsForSubscription?' + encodedParams,
+                        function(data) {
+                            resourceGroupSelectize.clearOptions();
+                            for (var i = 0; i < data.length; i++) {
+                                resourceGroupSelectize.addOption(data[i]);
+                            }
+                        });
+                }
+
+                function validateForm() {
+                    var re = /@DeploymentInputMapping.PasswordRegEx/;
+                    var passwordFields = $('.form-group input[type="password"]');
+
+                    var isCorrect = true;
+                    passwordFields.each(function(ix, field) {
+                        var passwordValue = $(field).val();
+                        var closestFormGroup = $(field).closest('.form-group');
+
+                        if (re.test(passwordValue)) {
+                            closestFormGroup.removeClass('has-error');
+                            return;
+                        }
+
+                        isCorrect = false;
+                        closestFormGroup.addClass('has-error');
+                    });
+
+                    if (isCorrect) {
+                        $("#spinner").show();
+                    }
+
+                    return isCorrect;
+                }
+        })
+        (window.jQuery);
+    }
+    </script>
+}

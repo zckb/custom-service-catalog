@@ -1,0 +1,109 @@
+{
+  "appId": "a452c627-3933-4677-901d-e83c41f0e58d",
+  "appRoles": [],
+  "availableToOtherTenants": false,
+  "displayName": "Shibboleth Service Catalog",
+  "errorUrl": null,
+  "groupMembershipClaims": "All",
+  "optionalClaims": null,
+  "acceptMappedClaims": null,
+  "homepage": "http://servicecatalogapp.azurewebsites.net/",
+  "informationalUrls": {
+    "privacy": null,
+    "termsOfService": null
+  },
+  "identifierUris": [
+    "http://servicecatalogapp.azurewebsites.net/"
+  ],
+  "keyCredentials": [],
+  "knownClientApplications": [],
+  "logoutUrl": null,
+  "oauth2AllowImplicitFlow": false,
+  "oauth2AllowUrlPathMatching": false,
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allow the application to access AzureDotNetTest on behalf of the signed-in user.",
+      "adminConsentDisplayName": "Access AzureDotNetTest",
+      "id": "d69cab69-7907-478a-b50d-120c040a8146",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow the application to access AzureDotNetTest on your behalf.",
+      "userConsentDisplayName": "Access AzureDotNetTest",
+      "value": "user_impersonation"
+    }
+  ],
+  "oauth2RequirePostResponse": false,
+  "objectId": "60480fd4-3cd7-4b9d-a2a7-82b8d122e2c8",
+  "parentalControlSettings": {
+    "countriesBlockedForMinors": [],
+    "legalAgeGroupRule": "Allow"
+  },
+  "passwordCredentials": [
+    {
+      "customKeyIdentifier": "ZgBpAHIAcwB0AA==",
+      "endDate": "2299-12-30T21:00:00Z",
+      "keyId": "d0afce28-6734-4f2f-9a30-9a0fcad8e5d6",
+      "startDate": "2018-03-06T08:34:24.8433098Z",
+      "value": null
+    }
+  ],
+  "publicClient": null,
+  "replyUrls": [
+    "http://servicecatalogapp.azurewebsites.net/.auth/login/aad/callback",
+    "http://servicecatalogapp.azurewebsites.net/"
+  ],
+  "requiredResourceAccess": [
+    {
+      "resourceAppId": "00000002-0000-0000-c000-000000000000",
+      "resourceAccess": [
+        {
+          "id": "cba73afc-7f69-4d86-8450-4978e04ecd1a",
+          "type": "Scope"
+        },
+        {
+          "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+          "type": "Scope"
+        },
+        {
+          "id": "5778995a-e1bf-45b8-affa-663a9f3f4d04",
+          "type": "Scope"
+        },
+        {
+          "id": "5778995a-e1bf-45b8-affa-663a9f3f4d04",
+          "type": "Role"
+        },
+        {
+          "id": "6234d376-f627-4f0f-90e0-dff25c5211a3",
+          "type": "Scope"
+        },
+        {
+          "id": "c582532d-9d9e-43bd-a97c-2667a28ce295",
+          "type": "Scope"
+        }
+      ]
+    },
+    {
+      "resourceAppId": "797f4846-ba00-4fd7-ba43-dac1f8f63013",
+      "resourceAccess": [
+        {
+          "id": "41094075-9dad-400e-a0bd-54e686782033",
+          "type": "Scope"
+        }
+      ]
+    },
+    {
+      "resourceAppId": "00000003-0000-0000-c000-000000000000",
+      "resourceAccess": [
+        {
+          "id": "7ab1d382-f21e-4acd-a863-ba3e13f7da61",
+          "type": "Role"
+        },
+        {
+          "id": "06da0dbc-49e2-44d2-8312-53f166ab848a",
+          "type": "Scope"
+        }
+      ]
+    }
+  ],
+  "samlMetadataUrl": null
+}
